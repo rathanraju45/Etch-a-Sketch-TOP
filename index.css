@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    font: 'roboto', sans-serif;
+    border: solid 1px white;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    gap: 10px;
+}
+
+#content{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 60%;
+    padding: 20px;
+}
+
+header input{
+    border-radius: 5px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: solid 1px white;
+}
+
+header button{
+    width: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#container{
+    border: solid 1px white;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.cell{
+    border: solid 1px white;
+}
